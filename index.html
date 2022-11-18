@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        gap: 20px;
+      }
+      button {
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>CLick para ejecutar cada ejercicio</h1>
+    </div>
+    <div class="container">
+      <button onclick="ejercicio1()">Ejercicio1</button>
+      <button onclick="ejercicio2()">Ejercicio2</button>
+      <button onclick="ejercicio3()">Ejercicio3</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
